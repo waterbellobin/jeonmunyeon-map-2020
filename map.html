@@ -35,7 +35,7 @@ var contentString1 = [
         '</div>'
     ].join('');
 
-var infowindow = new naver.maps.InfoWindow({
+var infowindow1 = new naver.maps.InfoWindow({
     content: contentString1
 });
 
@@ -51,7 +51,7 @@ var contentString2 = [
         '</div>'
     ].join('');
 
-var infowindow = new naver.maps.InfoWindow({
+var infowindow2 = new naver.maps.InfoWindow({
     content: contentString2
 });
 
@@ -71,8 +71,8 @@ naver.maps.Event.addListener(marker2, "click", function(e) {
     }
 });
 
-infowindow.open(map, marker1);
-// infowindow.open(map, marker2);
+infowindow1.open(map, marker1);
+infowindow2.open(map, marker2);
 </script>
 </body>
 </html>
