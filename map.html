@@ -56,18 +56,18 @@ var infowindow2 = new naver.maps.InfoWindow({
 });
 
 naver.maps.Event.addListener(marker1, "click", function(e) {
-    if (infowindow.getMap()) {
-        infowindow.close();
+    if (infowindow1.getMap()) {
+        infowindow1.close();
     } else {
-        infowindow.open(map, marker1);
+        infowindow1.open(map, marker1);
     }
 });
 
 naver.maps.Event.addListener(marker2, "click", function(e) {
-    if (infowindow.getMap()) {
-        infowindow.close();
+    if (infowindow2.getMap()) {
+        infowindow2.close();
     } else {
-        infowindow.open(map, marker2);
+        infowindow2.open(map, marker2);
     }
 });
 
