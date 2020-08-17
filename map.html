@@ -23,11 +23,17 @@ var mapOptions = {
 
 var map = new naver.maps.Map('map', mapOptions);
 
-var marker = new naver.maps.Marker({
+var marker1 = new naver.maps.Marker({
     position: new naver.maps.LatLng(37.3595704, 127.105399),
     map: map,
     title: 'Naver Green Factory'
 });
+
+var marker2 = new naver.maps.Marker({
+    position: new naver.maps.LatLng(37.3980, 127.1120),
+    map: map,
+    title: `Sujong's home`
+})
 
 </script>
 </body>
